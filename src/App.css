@@ -1,0 +1,66 @@
+
+.app {
+  font-family: sans-serif;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../public/images/233081.jpg');
+  background-size: cover;
+}
+* {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.app h1{
+  padding: 20px;
+  color: white;
+}
+.choices-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.choice-btn{
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.correct{
+  background: lightgreen;
+  border: 1.5px solid green;
+  width: fit-content;
+  padding: 9px;
+  border-radius: 8px;
+}
+.false{
+  background: rgb(228, 69, 69);
+  border: 1.5px solid red;
+  width: fit-content;
+  padding: 9px;
+  border-radius: 8px;
+}
+.score-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+}
+.btn{
+  color: white;
+  background-color: green;
+  text-decoration: none;
+  padding: 5px;
+  width: 120px;
+  border-radius: 7px;
+}
